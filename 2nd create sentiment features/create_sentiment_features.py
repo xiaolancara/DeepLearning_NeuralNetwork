@@ -15,7 +15,7 @@ import pickle
 from collections import Counter
 
 lemmatizer = WordNetLemmatizer()
-hm_lines = 10000000
+hm_lines = 1000
 
 def create_lexicon(pos, neg):
     lexicon = []
