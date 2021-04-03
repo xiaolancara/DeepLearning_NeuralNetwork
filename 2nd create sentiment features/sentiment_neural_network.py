@@ -8,7 +8,7 @@ n_nodes_hl1 = 500
 n_nodes_hl2 = 500
 n_nodes_hl3 = 500
 
-n_classes = 10
+n_classes = 2
 batch_size = 100
 
 x = tf.placeholder('float', [None, len(train_x[0])])
