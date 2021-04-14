@@ -1,3 +1,3 @@
-The Dataset of pets image for dogs and cats can download from here: 
+The Dataset of pets image for dogs and cats can be downloaded from here: 
 
 https://www.microsoft.com/en-us/download/confirmation.aspx?id=54765
