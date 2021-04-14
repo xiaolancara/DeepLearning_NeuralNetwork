@@ -18,3 +18,7 @@ print(CATEGORIES[int(prediction1[0][0])])
 print(CATEGORIES[int(prediction2[0][0])])
 print(CATEGORIES[int(prediction3[0][0])])
 
+###OUT PUT RESULT###
+# Cat
+# Cat
+# Dog
