@@ -66,24 +66,24 @@ for dense_layer in dense_layers:
             print(NAME)
             model = Sequential()
 
-            # one lyer
+            # one layer
             model.add(Conv2D(layer_size,(3,3),input_shape=X.shape[1:]))
             model.add(Activation('relu'))
             model.add(MaxPooling2D(pool_size = (2,2)))
 
             for l in range(conv_layer-1):
-                # two lyer
+                # two layer
                 model.add(Conv2D(layer_size,(3,3)))
                 model.add(Activation('relu'))
                 model.add(MaxPooling2D(pool_size = (2,2)))
 
             model.add(Flatten())  # this converts our 3D feature map to 1D feature vectors
             for l in range(dense_layer):
-                # three lyer
+                # three layer
                 model.add(Dense(layer_size))
                 model.add(Activation('relu'))
 
-            # output lyer
+            # output layer
             model.add(Dense(1))
             model.add(Activation('sigmoid'))
 
