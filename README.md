@@ -1,4 +1,4 @@
-# DeepLearning_NeuralNetwork
+# DeepLearning & NeuralNetwork
 
 ![image](https://i.pinimg.com/originals/f0/db/f5/f0dbf54f437965521e9aa5d6da2cf6c6.png)
 
